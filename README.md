@@ -8,7 +8,7 @@ The packages and configurations are catered for backend Drupal development. Plea
 
 1.  [ST3](https://www.sublimetext.com/3)
 2.  [Package Control](https://packagecontrol.io/)
-3.  
+3.  [Package Syncing](https://packagecontrol.io/packages/Package%20Syncing)
 
 ## How to use
 
