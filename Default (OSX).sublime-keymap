@@ -1,0 +1,31 @@
+[
+  { "keys": ["super+shift+a"], "command": "goto_drupalapi" },
+  { "keys": ["f1"], "command": "goto_documentation" },
+
+  // to insert docblockr
+  // {"keys": ["enter"], "command": "insert", "args" : {"characters": "\n * "}, "context": [
+  //   {"key": "selection_empty", "operator": "equal", "operand": true},
+  //   {"key": "preceding_text", "operator": "regex_contains", "operand": "\\/\\*\\*$", "match_all": true}
+  // ]},
+  // {"keys": ["enter"], "command": "insert", "args" : {"characters": "\n* "}, "context": [
+  //   //{"key": "selection_empty", "operator": "equal", "operand": true},
+  //   {"key": "preceding_text", "operator": "regex_contains", "operand": "^[\t ]*\\*[^\\/]", "match_all": true}
+  // ]},
+
+  {"keys": ["super+shift+c"], "command": "css_groups" }
+
+  // // markdown slideshow
+  // {
+  //   "keys": ["super+alt+p"], "command": "markdown_slideshow",
+  //   "args":
+  //   {
+  //     "themes": "/Users/Kiat/Library/Application\ Support/Sublime Text 2/Packages/Markdown Slideshow/themes",
+  //     "theme": "pixelonion",
+  //     "extensions": ["fenced_code", "tables"],
+  //     "browser": true,
+  //     "presenter": true,
+  //     "clean": true,
+  //     "output_file": "/tmp/slide.html"
+  //   }
+  // }
+]
