@@ -14,8 +14,8 @@ The packages and configurations are catered for backend Drupal development. Plea
 
 1.  Install ST3.
 2.  Install package control. Follow instructions [here](https://packagecontrol.io/installation).
-3.  Git clone this repository inside any of your cloud services.
-4.  Install package syncing module and configure the folder used for syncing by running "Package Syncing: Define Sync Folder" from the command palette. Follow instructions [here](https://packagecontrol.io/packages/Package%20Syncing).
+3.  Git clone this repository inside any of your cloud services folder, e.g. Dropbox, Google Drive, OneDrive.
+4.  Install package syncing module and configure "Package Syncing: Define Sync Folder" from the command palette to point to the folder you created in step 3. Follow instructions [here](https://packagecontrol.io/packages/Package%20Syncing).
 5.  Once the first machine is set up, follow all the steps to sync the packages and configurations to other machines.
 
 ## Have fun!
