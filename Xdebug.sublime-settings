@@ -30,7 +30,7 @@
     "port": 9100,
 
     // Show super globals in context view.
-    "super_globals": true,
+    "super_globals": false,
 
     // Maximum amount of array children
     // and object's properties to return.
