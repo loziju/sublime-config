@@ -1,15 +1,33 @@
 {
 	"auto_complete": false,
 	"auto_find_in_selection": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_size": 10,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
+		"Agila Theme",
+		"cdnjs",
 		"LiveReload",
+		"ShellCommand",
 		"SublimeCodeIntel",
-		"Vintage"
+		"Vintage",
 	],
 	"reveal-on-activate": true,
 	"rulers":
@@ -20,5 +38,8 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"index_workers": 1,
+	"index_files": false,
+	"index_exclude_patterns": ["data/*", "log/*", "logs/*", "node_modules/*", "vendor/*", "*.log"],
 }

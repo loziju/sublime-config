@@ -27,7 +27,7 @@
 
     // Which port number Sublime Text should listen
     // to connect with debugger engine.
-    "port": 9100,
+    "port": 9003,
 
     // Show super globals in context view.
     "super_globals": false,
